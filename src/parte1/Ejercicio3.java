@@ -6,6 +6,10 @@ public class Ejercicio3 {
 
 	public static void main(String[] args) {
 				
+		int añoNacimiento = 0;
+		int añonActual = 0;
+		int edad = 0;
+		
 		// Creo el escaner
 		Scanner sc = new Scanner(System.in);
 
@@ -13,15 +17,15 @@ public class Ejercicio3 {
 		System.out.println("Introduzca el año actual");
 
 		// El usuario ingresa el año actual
-		int año = sc.nextInt();
+		añoNacimiento = sc.nextInt();
 
 		// Pido al usuario que ingrese su año de nacimiento
 		System.out.println("Introduzca su año de  nacimiento");
 
 		// El usuario ingresa el año actual
-		int añonac = sc.nextInt();
+		añonActual = sc.nextInt();
 
-		int edad = (año - añonac);
+		edad = (añoNacimiento - añonActual);
 				
 		// El programa saca por pantalla el texto "Tienes x años " //
 		System.out.println("Tienes " + edad + " años");

@@ -6,6 +6,8 @@ public class Ejercicio1 {
 
 	public static void main(String[] args) {
 		
+		double numero = 0;
+		
 		//Creo el escaner
 		Scanner sc = new Scanner(System.in);
 		
@@ -13,7 +15,7 @@ public class Ejercicio1 {
 		System.out.println("Introduzca un número"); 
 		
 		//El usuario ingresa el numero
-		double numero = sc.nextDouble();
+		numero = sc.nextDouble();
 		
 		/* El programa saca por pantalla el texto "Ha escrito el numero" 
 		y escribe el numero escrito anteriormente */
