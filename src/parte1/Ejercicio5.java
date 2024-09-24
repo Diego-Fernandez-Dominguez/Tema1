@@ -18,6 +18,7 @@ public class Ejercicio5 {
 		// El usuario ingresa el radio
 		radio = sc.nextInt();
 		
+		// Calculo la longitud y el area
 		longitud = (2 * Math.PI * radio);
 		area = (Math.PI * Math.pow(radio, 2));
 		
