@@ -39,7 +39,7 @@ public class Ejercicio14 {
 		System.out.println("Expediente: " + (int) media);
 		
 		//Saco por pantalla el expediente (decimales)
-		System.out.println("Boletin: " + (double) media);
+		System.out.println("Boletin: " +  media);
 				
 		//Cierro el escaner
 		sc.close();
