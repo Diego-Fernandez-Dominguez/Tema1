@@ -36,11 +36,14 @@ public class Ejercicio13 {
 		/* Compruebo si no esta lloviendo y tiene las tareas hechas, si se 
 		   cumplen las dos es true o si tiene que ir a la biblioteca , que si se cumple es true.*/
 		salir = (tareas&&!lluvia) || biblioteca;
-				
+		
+		//Se confirma si puede salir a la calle dependiendo si poder es true o false
 		poder = salir ? "Puede salir a la calle" : "No puede salir a la calle" ;
 		
+		//Saco el resultado por pantalla
 		System.out.println(poder);
 		
+		//Cierro el escaner
 		sc.close();
 }
 }
