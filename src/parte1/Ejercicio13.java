@@ -33,10 +33,10 @@ public class Ejercicio13 {
 		//El usuario lo escribe
 		biblioteca = sc.nextBoolean();
 		
+		/* Compruebo si no esta lloviendo y tiene las tareas hechas, si se 
+		   cumplen las dos es true o si tiene que ir a la biblioteca , que si se cumple es true.*/
 		salir = (tareas&&!lluvia) || biblioteca;
-		
-		//salir = biblioteca || tareas && !lluvia || !tareas && lluvia;
-		
+				
 		poder = salir ? "Puede salir a la calle" : "No puede salir a la calle" ;
 		
 		System.out.println(poder);

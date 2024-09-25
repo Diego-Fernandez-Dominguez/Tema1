@@ -8,6 +8,8 @@ public class Ejercicio12 {
 		//Creo las variables
 		double peras;
 		double manzanas;
+		final double kiloManzana = 2.35;
+		final double kiloPera = 1.95;
 		double precManzanas;
 		double precPeras;
 		double total;
@@ -28,10 +30,10 @@ public class Ejercicio12 {
 		peras = sc.nextDouble();
 		
 		//Calculo el precio total de las manzanas
-		precManzanas = manzanas * 2.35;
+		precManzanas = manzanas * kiloManzana;
 		
 		//Calculo el precio total de las peras
-		precPeras = peras * 1.95;
+		precPeras = peras * kiloPera;
 		
 		//Calculo el precio total 
 		total = precPeras + precManzanas;
