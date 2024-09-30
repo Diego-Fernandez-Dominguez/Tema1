@@ -7,8 +7,6 @@ public class Ejercicio1 {
 		
 		//Creo las variables
 		double num1;
-		boolean aprox;
-		int redondeo;
 		
 		//Creo el escaner
 		Scanner sc = new Scanner(System.in);
@@ -18,18 +16,11 @@ public class Ejercicio1 {
 		
 		//El usuario lo introduce
 		num1 = sc.nextDouble();
-		
-		/* Compruebo si el numero introducido es 
-		 mayor o igual al entero de ese numero + 0,5 */
-		aprox = num1 >= (int)num1 + 0.5;
-		
-		/* Confirma si sacar el num1 +1 o el entero 
-		del numero introducido */
-		redondeo = (int) (aprox ? ++num1 : num1);
-				
-		//Saco por pantalla el numero redondeado
-		System.out.println(redondeo);
-		
+
+		/* Le sumo 0,5 a num1, para saber si es mayor o menor que
+		 * num1 +0.5 y, trunco el resultado. Si es mayor o igual
+		   que num1 + 0.5 se redondeara al numero mas alto*/
+		System.out.println((int)(num1 + 0.5));
 				
 		//Cierro el escaner
 		sc.close();
