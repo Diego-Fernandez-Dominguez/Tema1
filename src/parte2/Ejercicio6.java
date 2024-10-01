@@ -5,10 +5,19 @@ import java.util.Scanner;
 public class Ejercicio6 {
 	public static void main(String[] args) {
 		
-		//Creo las variables
-		int milimetros, centimetros, metros, total;
+		//Creo la variable para guardar los milimetros
+		int milimetros;
 		
-		//Creo el escaner
+		//Creo la variable para guardar los centimetros
+		int centimetros;
+		
+		//Creo la variable para guardar los metros
+		int metros;
+		
+		//Creo la variable para guardar la suma de las variables anteriores convertidas a cm
+		int total;
+		
+		//Creo el escaner para que pueda leer teclado
 		Scanner sc = new Scanner(System.in);
 		
 		//Pido al usuario que introduzca los milimetros
@@ -29,7 +38,7 @@ public class Ejercicio6 {
 		//Lo introduce
 		metros = sc.nextInt();
 		
-		//Calculo la suma
+		//Calculo la suma, transformando los milimetros y metros a centimetros
 		total  = (milimetros / 10) + (metros*100) + centimetros;
 		
 		//Saco el resultado por pantalla
