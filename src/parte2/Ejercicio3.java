@@ -24,7 +24,7 @@ public class Ejercicio3 {
 		//Lo introduce
 		MULTIPLO= sc.nextInt();
 		
-		//Calculo el resto del numeor
+		//Calculo el resto del numero
 		resto= num1 % MULTIPLO;
 		
 		/* Verifico si el resto de numero es cero, si es asi guardo
