@@ -8,8 +8,8 @@ public class Ejercicio7 {
 		//Creo las variables
 		int adultos, infantiles;
 		double total;
-		final int precioAdul = 20; 
-		final double precioInfan = 15.50, descuento = 0.05;
+		final int PRECIO_ADUL = 20; 
+		final double PRECIO_INFAN = 15.50, DESCUENTO = 0.05;
 		
 		//Creo el escaner
 		Scanner sc = new Scanner(System.in);
@@ -27,10 +27,10 @@ public class Ejercicio7 {
 		infantiles = sc.nextInt();
 		
 		//Calculo la suma
-		total  = (adultos*precioAdul) + (infantiles*precioInfan);
+		total  = (adultos*PRECIO_ADUL) + (infantiles*PRECIO_INFAN);
 		
 		//Compruebo si se le puede aplicar el descuento al total
-		total = total >= 100 ? (total-(total * descuento)) : total ;
+		total = total >= 100 ? (total-(total * DESCUENTO)) : total ;
 		
 		//Saco el resultado por pantalla
 		System.out.println("El precio total seria de: " + total);

@@ -7,7 +7,7 @@ public class Ejercicio3 {
 		
 		//Creo las variables
 		int num1, resto, suma; 
-		final int multiplo;
+		final int MULTIPLO;
 		
 		//Creo el escaner
 		Scanner sc = new Scanner (System.in);
@@ -22,18 +22,18 @@ public class Ejercicio3 {
 		System.out.println("Introduzca el multiplo: ");
 		
 		//Lo introduce
-		multiplo= sc.nextInt();
+		MULTIPLO= sc.nextInt();
 		
 		//Calculo el resto del numeor
-		resto= num1 % multiplo;
+		resto= num1 % MULTIPLO;
 		
 		/* Verifico si el resto de numero es cero, si es asi guardo
 		 * la variable como cero, si no es asi resto el multiplo
 		   con el resto, para que me diga cuanto le falta*/
-		suma = (resto==0) ? 0 : (multiplo - resto);
+		suma = (resto==0) ? 0 : (MULTIPLO - resto);
 		
 		//Saco por pantalla el resultado
-		System.out.println("A tu numero (" + num1 + ") habria que sumarle " + suma + " para que sea multiplo de " + multiplo);
+		System.out.println("A tu numero (" + num1 + ") habria que sumarle " + suma + " para que sea multiplo de " + MULTIPLO);
 		
 		//Cierro el escaner
 		sc.close();
