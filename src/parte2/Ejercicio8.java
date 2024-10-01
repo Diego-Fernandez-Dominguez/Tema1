@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ejercicio8 {
 	public static void main(String[] args) {
 		
-		//Creo la variable para guardar lso centimetros
+		//Creo la variable para guardar los centimetros
 		int centimetros;
 		
 		//Creo la variable para guardar los metros
