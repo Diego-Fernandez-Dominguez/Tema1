@@ -29,7 +29,7 @@ public class Ejercicio3 {
 		
 		/* Verifico si el resto de numero es cero, si es asi guardo
 		 * la variable como cero, si no es asi resto el multiplo
-		   con el resto, para que me diga cuanto le falta*/
+		   con el resto, para que me diga cuanto le falta */
 		suma = (resto==0) ? 0 : (MULTIPLO - resto);
 		
 		//Saco por pantalla el resultado
