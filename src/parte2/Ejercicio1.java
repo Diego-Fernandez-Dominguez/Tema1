@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Ejercicio1 {
 	public static void main(String[] args) {
 		
-		//Creo las variables
+		//Creo la variable para guardar el numero introducido por el usuario
 		double num1;
 		
-		//Creo el escaner
+		//Creo el escaner para leer teclado
 		Scanner sc = new Scanner(System.in);
 		
 		//Pido al usuario que introduzca un numero

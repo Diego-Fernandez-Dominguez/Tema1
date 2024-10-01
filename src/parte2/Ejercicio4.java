@@ -5,10 +5,22 @@ import java.util.Scanner;
 public class Ejercicio4 {
 	public static void main(String[] args) {
 		
-		//Creo las variables
-		double numX, numA, numB, numC, numY;
+		//Creo la variable para guardar el numero X
+		double numX;
 		
-		//Creo el escaner
+		//Creo la variable para guardar el numero A
+		double numA;
+		
+		//Creo la variable para guardar el numero B
+		double numB;
+		
+		//Creo la variable para guardar el numero C
+		double numC;
+		
+		//Creo la variable para guardar el numero Y
+		double numY;
+		
+		//Creo el escaner para leer el teclado
 		Scanner sc = new Scanner(System.in);
 		
 		//Le pido al usuario que introduzca "A"
