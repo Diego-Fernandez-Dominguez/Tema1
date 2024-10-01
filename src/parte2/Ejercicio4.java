@@ -36,7 +36,7 @@ public class Ejercicio4 {
 		numX=sc.nextDouble();
 		
 		//Hago la operacion de segundo grado y guardo el resultado en "Y"
-		numY= numA*(numX*numX)+numB*numX+numC;
+		numY= numA * Math.pow(numX, 2) + numB * numX + numC;
 		
 		//Saco or pantalla el resultado de "Y"
 		System.out.println("El valor de 'Y' es: " + numY);
